@@ -8,13 +8,10 @@ export default function PollutionSection() {
 
   const handleVideoClick = () => {
     setShowModal(true)
-    // Opcional: Pausar o scroll da página quando o modal estiver aberto
-    document.body.style.overflow = 'hidden'
   }
 
   const closeModal = () => {
     setShowModal(false)
-    document.body.style.overflow = 'unset'
   }
 
   return (
@@ -69,7 +66,7 @@ export default function PollutionSection() {
 
       {/* Modal do Vídeo */}
       {showModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4">
           {/* Overlay escuro */}
           <div 
             className="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity" 
