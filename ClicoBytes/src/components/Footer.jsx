@@ -31,7 +31,7 @@ export default function Footer() {
               <Instagram size={24} />
             </a>
             <a 
-              href="#" 
+              href="https://trello.com/invite/b/66e9740790a4fe10179c8a46/ATTI899dea09933f4bab35d4c614a659af083CF7BD4B/ciclista-consciente-upx-gas046tsn1" 
               target="_blank"
               className="text-white hover:bg-white/10 p-2 rounded-full transition-all duration-300"
               aria-label="LinkedIn"
